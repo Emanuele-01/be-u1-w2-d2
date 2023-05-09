@@ -34,14 +34,14 @@ public class Esercizio1 {
 		
 		
 		for(String doppioni : name2) {
-			System.out.println("le parole diverse sono: " + doppioni);
+			System.out.println("le parole uguali sono: " + doppioni);
 		};
 
 		
 		int numWordDiverse = name.size();
-		 System.out.println("e parole diverse tra di loro sono: " + numWordDiverse);
+		System.out.println("il numero di parole diverse è: " + numWordDiverse);
 		 
-		 System.out.println("il numero di parole diverse è: ");
+		System.out.println("e parole diverse tra di loro sono: ");
 		 
 		 for(String diversi : name) {
 			 System.out.println("parole: " + diversi);
